@@ -1,0 +1,23 @@
+//Rota: endereço completo da nossa requisiçãp
+//Recurso: qual entidade estamos acessando
+
+//GET: vuscar uma ou mais informações do back-end
+//POST:  Criar uma nova informação no back-end
+//PUT:  Atualizar uma informação existente  no back-end
+//DELETE: Remover uma informação do back-end
+
+//Post: http://localhost:3333/users= criar um usuario
+//GET: http://localhost:3333/users= Listar usuarios
+//GET http://localhost:3333/users/5 = buscar dados do usuario com ID 5
+
+
+// Request param: Paramentros que vem na propria rota que indentifica um recurso
+//Query param: Parametros que vem na propria rota geralmente opcionais para filtros, paginação
+//Request Body: Paramentros para criação /atualização de informações
+
+//SELECT * FROM users WHERE name = "Diego"
+//knex('users').where ("name", 'Diego').select('*')
+
+
+
+// JSX sintaxe de XML dentro do Javascript
