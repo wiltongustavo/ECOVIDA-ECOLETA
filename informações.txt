@@ -21,3 +21,7 @@
 
 
 // JSX sintaxe de XML dentro do Javascript
+
+
+
+//arrau ou objeto: sempre que criamos um estado para array ou objeto , a gente precisa manualmente informar o tipo da variavel que sera armazenada ali dentro
